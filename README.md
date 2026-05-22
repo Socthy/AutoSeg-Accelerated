@@ -131,8 +131,6 @@ AutoSeg-Accelerated/
 
 ## 引用
 
-若使用原版 AutoSeg-SAM2，请引用其仓库：
-
 ```bibtex
 @software{AutoSeg_SAM2,
   author = {Zrporz},
