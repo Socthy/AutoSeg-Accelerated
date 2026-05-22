@@ -2,8 +2,8 @@
 set -euo pipefail
 
 # Edit paths for your dataset
-VIDEO_PATH="${VIDEO_PATH:-/date/xrd/code/Segment-then-Splat/datasets/anli/images}"
-OUTPUT_DIR="${OUTPUT_DIR:-/date/xrd/code/Segment-then-Splat/datasets/anli/output}"
+VIDEO_PATH="${VIDEO_PATH:anli/images}"
+OUTPUT_DIR="${OUTPUT_DIR:anli/output}"
 BATCH_SIZE="${BATCH_SIZE:-40}"
 DETECT_STRIDE="${DETECT_STRIDE:-10}"
 POINTS_PER_SIDE="${POINTS_PER_SIDE:-16}"
