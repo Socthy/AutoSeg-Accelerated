@@ -10,7 +10,7 @@
 ## 与原版的主要差异（可自行补充）
 
 - `auto-mask-fast.py`：SAM1 权重完整性校验；`masks_update` NMS 迁至 GPU；`--skip_vis` / `--points_per_side` 等加速参数；修复 `final-output` 阶段可视化残留 bug  
-- `visulization.py`：支持 `anli2_frame_000184` 等非纯数字帧名排序  
+- `visulization.py`：支持 `anli_frame_000184` 等非纯数字帧名排序  
 - `autoseg.sh`：路径可配置、`set -e`、默认跳过中间可视化  
 
 ---
